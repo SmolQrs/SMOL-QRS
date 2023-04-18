@@ -1,0 +1,114 @@
+.client-result-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+}
+.client-info-result-page {
+  font-size: 1.3rem;
+  color: var(--secondary-color);
+  font-weight: 600;
+  text-align: center;
+}
+.organization-tables {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 400px;
+}
+.matched-organizations {
+  width: 45%;
+  border: 2px solid #008080;
+  height: 80%;
+  position: relative;
+  padding: 5px;
+  border-radius: 5px;
+}
+.no-match-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  text-align: center;
+  color: red;
+}
+.no-match-message i {
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+.coordinators-list {
+  margin-top: 10px;
+  list-style: none;
+}
+.coordinators-list span {
+  font-weight: 600;
+  margin-right: 5px;
+  text-decoration: underline;
+}
+.table-title {
+  padding: 5px;
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  background-color: var(--primary-color);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #008080;
+}
+.accepted-organizations .accepted-coordinators {
+  color: green;
+}
+.rejected-organizations .rejected-coordinators {
+  color: red;
+}
+
+.reacted-organizations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 45%;
+  height: 80%;
+}
+.accepted-organizations,
+.rejected-organizations {
+  width: 100%;
+  border: 2px solid #008080;
+  height: 45%;
+  position: relative;
+  border-radius: 5px;
+  padding: 5px;
+}
+.result-page-buttons {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+  .client-result-page {
+    width: 100%;
+  }
+  .client-info-result-page {
+    font-size: 1.1rem;
+  }
+  .organization-tables {
+    flex-direction: column;
+  }
+  .matched-organizations,
+  .reacted-organizations {
+    width: 90%;
+    margin-top: 30px;
+  }
+  .rejected-organizations {
+    margin-top: 30px;
+  }
+  .result-page-buttons {
+    width: 100%;
+  }
+}

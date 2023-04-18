@@ -1,0 +1,29 @@
+.keywords-table {
+  position: relative;
+  width: 100%;
+}
+
+.keywords-table .table {
+  font-size: 14px;
+  margin: 0 0 40px 0;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  display: table;
+}
+
+.keywords-table .row {
+  display: table-row;
+  background: #f6f6f6;
+}
+.keywords-table .row:nth-of-type(odd) {
+  background: #e9e9e9;
+}
+.keywords-table .row.header {
+  font-weight: 600;
+  color: #ffffff;
+  background: var(--secondary-color);
+}
+.keywords-table .cell {
+  padding: 4px 6px;
+  display: table-cell;
+}

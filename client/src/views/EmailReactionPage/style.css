@@ -1,0 +1,40 @@
+.email-reply-message {
+  align-self: center;
+  margin: 0px auto;
+  padding: 30px;
+  width: 50%;
+  height: fit-content;
+  /* min-width: 400px; */
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: aliceblue;
+  /* var(--primary-color); */
+  color: var(--secondary-color);
+  text-align: center;
+  font-size: 14px;
+}
+.email-reply-message h2 {
+  margin-bottom: 20px;
+}
+.email-reply-message p {
+  display: flex;
+}
+.email-reply-message i {
+  font-size: 30px;
+  font-weight: 200;
+  margin-right: 10px;
+}
+.fa-face-smile {
+  color: green;
+}
+.fa-face-sad-tear {
+  color: red;
+}
+
+@media only screen and (max-width: 600px) {
+  .email-reply-message {
+    width: 90%;
+  }
+}

@@ -1,0 +1,66 @@
+.new-client-page {
+  align-self: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.new-client-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.new-client-right,
+.new-client-left {
+  width: 45%;
+}
+.new-client-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.new-client-page .input-component {
+  width: 100%;
+}
+.name-gender {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.gender-select {
+  width: 30%;
+}
+
+.new-client-page label {
+  color: black;
+  padding: 5px 0px 3px 0px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.new-client-right textarea {
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 10px;
+}
+.new-client-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .new-client-page {
+    width: 90%;
+  }
+  .new-client-form {
+    flex-direction: column;
+  }
+  .new-client-right,
+  .new-client-left {
+    width: 90%;
+  }
+}

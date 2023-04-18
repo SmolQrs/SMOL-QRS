@@ -1,0 +1,47 @@
+.login-form {
+  align-self: center;
+  width: 70%;
+  margin: 0 auto;
+}
+.login-form .login-input {
+  width: 60%;
+}
+.sms-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.password-link-button {
+  width: fit-content !important;
+  /* background-color: whitesmoke !important;
+  color: black; */
+}
+.login-sms-button {
+  margin-left: 10px;
+}
+.password-input {
+  width: 75%;
+  position: relative;
+}
+.fa-eye,
+.fa-eye-slash {
+  position: absolute;
+  right: 25%;
+  top: 35px;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .login-form {
+    width: 100%;
+  }
+  .login-form .login-input {
+    width: 65%;
+  }
+  .login-sms-button {
+    width: 50px !important;
+  }
+  .password-input {
+    width: 90%;
+  }
+}

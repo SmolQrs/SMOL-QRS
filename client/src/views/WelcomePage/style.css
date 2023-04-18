@@ -1,0 +1,31 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--secondary-color);
+  width: 80%;
+  margin: 0px auto;
+}
+.home-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.home-logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+.home-header {
+  text-align: center;
+}
+.home-definition {
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .home {
+    width: 100%;
+  }
+}

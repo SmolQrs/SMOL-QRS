@@ -1,0 +1,23 @@
+.new-organization-page {
+  align-self: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.new-organization-page .input-component {
+  width: 100%;
+}
+.organization-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+@media only screen and (max-width: 600px) {
+  .new-organization-page {
+    width: 90%;
+  }
+  .organization-buttons {
+    width: 100%;
+  }
+}
